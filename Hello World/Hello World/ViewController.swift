@@ -22,9 +22,11 @@ class ViewController: UIViewController {
     }
 
     @IBAction func helloPressed(_ sender: UIButton) {
+        infoLabel.text = "Hello World!"
     }
 
     @IBAction func clearTapped(_ sender: UIButton) {
+        infoLabel.text = ""
     }
 }
 
